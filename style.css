@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #0c0c0c;
+    background-color: #ffffff;
+}
+
+.container {
+    background-image: url(assets/red-wall-with-white-spray-background_1409-1344.avif);
+    background-size: cover;
+}
+
+.heading_container {
+    background-image: url(assets/White\ abstract\ background\ vector\ design\ 02.svg);
+    background-size: cover;
+}
+
+.nav {
+    text-align: end;
+    text-transform: uppercase;
+    background-color:white;
+    padding: 0.7vh;
+    
+}
+
+.nav_link,
+.nav_link:hover {
+    color: initial;
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+main {
+    border: 3px solid #ccc;
+    background: #eee;
+    padding: 1%;
+    margin: 2%;
+    text-justify: auto;
+    background-color: rgba(221, 219, 219, 0.362);
+    background-size: contain;
+}
+
+/* spacing */
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border: 3px solid rgba(128, 21, 0, 0.482);
+  }
+    
+  th,
+  td {
+    padding: 7px;
+    text-align: center;
+  }
+  
+
+a,
+a:hover {
+    color: initial;
+}
+
+.youtube-player{
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+footer {
+    border: 3px solid #ccc;
+    background: #eee;
+    padding: 1%;
+    margin: 2%;
+    text-justify: auto;
+    background-color: rgba(221, 219, 219, 0.362);
+    background-size: contain;
+}
+
+section {
+    border: 3px solid #ccc;
+    background: #eee;
+    padding: 1%;
+    margin: 2%;
+    text-justify: auto;
+    background-color: rgba(230, 211, 211, 0.587);
+    background-size: contain;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+.input {
+    margin: 0.4%;
+}
+
+details {
+    margin: 0.4%;
+    text-decoration: underline;
+}
